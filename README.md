@@ -5,7 +5,9 @@
  
 ----
 
-You can use your Pokemon classes from Assignment 2 or you can use mine I have put in the [Assignment2b-PokemonHierarchy-Solution](https://github.com/ICSatKCC/Assignment2b-PokemonHierarchy-Solution) repo. Clone this repo to your computer, then copy the Pokemon class files into it and add them to git. Don't copy everything in your Assignment 2 directory because there are hidden files that git makes and you don't want them in this new repository. That will mess up git.
+You can use your Pokemon classes from Assignment 2 or you can use mine I have put in the [Assignment2b-PokemonHierarchy-Solution](https://github.com/ICSatKCC/Assignment2b-PokemonHierarchy-Solution) repo. 
+
+Clone this Assignment 3 repo to your computer, then copy the Pokemon class files into it and add them to git. Don't copy **everything** in your Assignment 2 directory because there are hidden files that git makes and you don't want them in this new repository. That will mess up git.
 
 ## PokemonException
 
@@ -54,9 +56,7 @@ and then printing the queue in order like this:
         System.out.println(curr.toString());
       }
 ```
-should yield results like at the bottom of this page with Pokemon sorted by number first. 
-
-If the number is the same, then sorted by the name. If the name is also the same (see Bulbasaurs) then sorted by HP and then CP. Since the species is the name by default, then user-set names may sort before or after unnamed Pokemon depending on the name.
+should yield results like at the bottom of this page with Pokemon sorted by number first.  If the number is the same, then sorted by the name. If the name is also the same (see Bulbasaurs) then sorted by HP and then CP. Since the species is the name by default, user-set names may sort before or after unnamed Pokemon depending on what the name is.
 
 This should pass the Pokemon compare and equality jUnit tests in PokemonTest.java.
 ----
