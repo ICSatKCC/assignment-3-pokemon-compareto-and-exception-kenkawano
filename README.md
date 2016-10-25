@@ -32,7 +32,7 @@ To say a Pokemon is equal to another Pokemon the following instance variables sh
  
 The other instance variables are all fixed based on these values so do not need to be checked.
 
-The compareTo method should compare those same instance variables, in that exact order. This makes the number highest precedence for ordering, name next highest precedence, HP next highest, and so on.
+The compareTo method should compare those same instance variables, in that exact order. This makes the number highest precedence for ordering, name next highest precedence, HP next highest, and so on. Be sure you follow the Java API here and make it so the compareTo result is negative if in p1.compareTo(p2), p1 is "less" than p2 (p1 should come after p2 in the priority queue) ; the result is positive if p1 is "greater" than p2 (p1 should come before p2 in the priority queue; the result is 0 if p1.equals(p2) returns true.
 
 Adding Pokemon to Java API PriorityQueue *pq* in any order like so:
 ```
