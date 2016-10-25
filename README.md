@@ -65,7 +65,7 @@ This should pass the Pokemon compare and equality jUnit tests in PokemonTest.jav
 ----
 ## PriorityQueue of Pokemon
 
-The final task is to make a driver program (main method) that implements a Java API PriorityQueue and an API Dequeue used as a Stack. Make a loop that generates all different species of Pokemon and fills both the PriorityQueue and the Stack with the same 100 Pokemon. You can make like a "batch" loop that does 10 or 20 or so at a time. For example:
+The final task is to make a driver program (main method) that implements a Java API PriorityQueue and an API Deque used as a Stack. Make a loop that generates all different species of Pokemon and fills both the PriorityQueue and the Stack with the same 100 Pokemon. You can make like a "batch" loop that does 10 or 20 or so at a time. For example:
 ```
 Pokemon pTemp = new Bulbasaur();
 pq.add(pTemp);
