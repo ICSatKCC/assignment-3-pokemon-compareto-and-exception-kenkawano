@@ -45,6 +45,8 @@ Adding Pokemon to Java API PriorityQueue *pq* in any order like so:
         pq.add(new Charizard());
         pq.add(new Bulbasaur());
         pq.add(new Blastoise());
+        pq.add(new Bulbasaur());
+        pq.add(new Bulbasaur());
         pq.add(new Bulbasaur("Alpha"));
         pq.add(new Bulbasaur("Beta"));
         pq.add(new Bulbasaur("Gamma"));
