@@ -61,6 +61,7 @@ and then printing the queue in order like this:
 should yield results like at the bottom of this page with Pokemon sorted by number first.  If the number is the same, then sorted by the name. If the name is also the same (see Bulbasaurs) then sorted by HP and then CP. Since the species is the name by default, user-set names may sort before or after unnamed Pokemon depending on what the name is.
 
 This should pass the Pokemon compare and equality jUnit tests in PokemonTest.java.
+
 ----
 ## PriorityQueue of Pokemon
 
