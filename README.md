@@ -5,7 +5,8 @@
  
 ----
 
-You can use your Pokemon classes from Assignment 2 or you can use mine I have put in the [Assignment2b-PokemonHierarchy-Solution](https://github.com/ICSatKCC/Assignment2b-PokemonHierarchy-Solution) repo
+You can use your Pokemon classes from Assignment 2 or you can use mine I have put in the [Assignment2b-PokemonHierarchy-Solution](https://github.com/ICSatKCC/Assignment2b-PokemonHierarchy-Solution) repo. Clone this repo to your computer, then copy the Pokemon class files into it and add them to git. Don't copy everything in your Assignment 2 directory because there are hidden files that git makes and you don't want them in this new repository. That will mess up git.
+
 ## PokemonException
 
 Your first task is to add a PokemonException class that extends RuntimeException. Don't use the Exception superclass or it will force you to always try/catch it. You must modify the Pokemon.java superclass so that the PokemonException will be thrown whenever the name is set to an empty string. This could happen in the Pokemon superclass constructor (though all subclasses should make it so that can't happen) and in the setName method. See the IllegalFractionException.java class under the Week 4 Resources on Laulima if you need a reference. 
